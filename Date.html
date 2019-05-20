@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let now = new Date();
+    let birthday=new Date('1994-5-20 12:00:00');
+    console.log(now);
+    console.log(birthday);
+    let live = now-birthday;
+    let second=Math.floor(live/1000);
+    let min=Math.floor(second/60);
+    let hours=Math.floor(min/60);
+    let day=Math.floor(hours/24);
+    let month=Math.floor(day/30);
+    let year=Math.floor(month/12);
+    console.log(now.year);
+    console.log(live);
+    console.log("toi da song "+year+" nam");
+    console.log("toi da song "+month+" thang");
+    console.log("toi da song "+day+" ngay");
+    console.log("toi da song "+hours+" gio");
+    console.log("toi da song "+min+" phut");
+    console.log("toi da song "+second+" giay");
+</script>
+
+</body>
+</html>
